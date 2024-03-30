@@ -257,7 +257,9 @@ ViridianCityOldManMovingDownScript:
 
 ViridianCity_TextPointers:
 	def_text_pointers
+	dw_const ViridianCityYoungster1Text,                     TEXT_VIRIDIANCITY_YOUNGSTER1
 	dw_const ViridianCityGambler1Text,                       TEXT_VIRIDIANCITY_GAMBLER1
+	dw_const ViridianCityYoungster2Text,                     TEXT_VIRIDIANCITY_YOUNGSTER2
 	dw_const ViridianCityGirlText,                           TEXT_VIRIDIANCITY_GIRL
 	dw_const ViridianCityOldManSleepyText,                   TEXT_VIRIDIANCITY_OLD_MAN_SLEEPY
 	dw_const ViridianCityFisherText,                         TEXT_VIRIDIANCITY_FISHER
@@ -274,9 +276,19 @@ ViridianCity_TextPointers:
 	dw_const ViridianCityGymLockedText,                      TEXT_VIRIDIANCITY_GYM_LOCKED
 	dw_const ViridianCityOldManYouNeedToWeakenTheTargetText, TEXT_VIRIDIANCITY_OLD_MAN_YOU_NEED_TO_WEAKEN_THE_TARGET
 
+ViridianCityYoungster1Text:
+	text_asm
+	farcall ViridianCityPrintYoungster1Text
+	jp TextScriptEnd
+
 ViridianCityGambler1Text:
 	text_asm
 	farcall ViridianCityPrintGambler1Text
+	jp TextScriptEnd
+
+ViridianCityYoungster2Text:
+	text_asm
+	farcall ViridianCityPrintYoungster2Text
 	jp TextScriptEnd
 
 ViridianCityGirlText:

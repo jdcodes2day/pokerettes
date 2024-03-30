@@ -1,3 +1,12 @@
+ViridianCityPrintYoungster1Text::
+	ld hl, .text
+	call PrintText
+	ret
+
+.text
+	text_far _ViridianCityYoungster1Text
+	text_end
+
 ViridianCityPrintGambler1Text::
 	ld hl, .GymLeaderReturnedText
 	ld a, [wObtainedBadges]
@@ -16,6 +25,31 @@ ViridianCityPrintGambler1Text::
 
 .GymLeaderReturnedText:
 	text_far _ViridianCityGambler1GymLeaderReturnedText
+	text_end
+
+ViridianCityPrintYoungster2Text::
+	ld hl, .YouWantToKnowAboutText
+	call PrintText
+	call YesNoChoice
+	ld a, [wCurrentMenuItem]
+	and a
+	ld hl, .OkThenText
+	jr nz, .no
+	ld hl, .CaterpieAndWeedleDescriptionText
+.no
+	call PrintText
+	ret
+
+.YouWantToKnowAboutText:
+	text_far _ViridianCityYoungster2YouWantToKnowAboutText
+	text_end
+
+.OkThenText:
+	text_far ViridianCityYoungster2OkThenText
+	text_end
+
+.CaterpieAndWeedleDescriptionText:
+	text_far ViridianCityYoungster2CaterpieAndWeedleDescriptionText
 	text_end
 
 ViridianCityPrintGirlText::
