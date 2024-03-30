@@ -193,3 +193,13 @@ _ViridianCityGymLockedText::
 	text "The GYM's doors"
 	line "are locked..."
 	done
+
+_ViridianCityJayText::
+	text "Snoochie"
+	line "boochies"
+	done
+
+_ViridianCityBobText::
+	text "..."
+	line "..."
+	done

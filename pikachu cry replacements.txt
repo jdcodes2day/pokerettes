@@ -1,0 +1,43 @@
+Touretteschu Cry Replacements
+pikachu_cry_1 - "PISS!"
+pikachu_cry_2 - "FUCK!"
+pikachu_cry_3 - "ALL RIGHT!"
+pikachu_cry_4 - "FUUUUUUUCK!"
+pikachu_cry_5 - "BITCH! I love you!"
+pikachu_cry_6 - "KISS MY ASS!"
+pikachu_cry_7 - unused
+pikachu_cry_8 - unused
+pikachu_cry_9 - "OH JESUS CRAP!"
+pikachu_cry_10 - "YOU'RE AN ASSHOLE, I'M GONNA KICK YOUR ASS!"
+pikachu_cry_11 - "FUCK!"
+pikachu_cry_12 - unused
+pikachu_cry_13 - "Ass!"
+pikachu_cry_14 - unused
+pikachu_cry_15 - "GOD DAMN IT HURTS!"
+pikachu_cry_16 - unused
+pikachu_cry_17 - "Yes!"
+pikachu_cry_18 - "YOU HAVE BALLS!"
+pikachu_cry_19 - "Holy dumb fuck! What is this shit?!"
+pikachu_cry_20 - "I can't see shit!"
+pikachu_cry_21 - unused
+pikachu_cry_22 - unused
+pikachu_cry_23 - unused
+pikachu_cry_24 - unused
+pikachu_cry_25 - "Daaamn...!"
+pikachu_cry_26 - "WHAT THE FUCK?!"
+pikachu_cry_27 - unused
+pikachu_cry_28 - "Fuck you!"
+pikachu_cry_29 - "Pretty good."
+pikachu_cry_30 - unused
+pikachu_cry_31 - "Shit...!"
+pikachu_cry_32 - unused
+pikachu_cry_33 - "That was a good shit!"
+pikachu_cry_34 - (wheezy laugh)
+pikachu_cry_35 - "YEAH!"
+pikachu_cry_36 - unused
+pikachu_cry_37 - (drunk "UUUGGGGHHHH..." sound)
+pikachu_cry_38 - "You're an asshole!"
+pikachu_cry_39 - "OHHH YEAAAAH!"
+pikachu_cry_40 - "You can't do SHIT, WITHOUT YOUR BALLS!"
+pikachu_cry_41 - unused
+pikachu_cry_42 - unused
