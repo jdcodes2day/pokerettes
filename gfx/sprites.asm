@@ -87,8 +87,3 @@ ChanseySprite::          INCBIN "gfx/sprites/chansey.2bpp"
 SurfingPikachuSprite::   INCBIN "gfx/sprites/surfing_pikachu.2bpp"
 JessieSprite::           INCBIN "gfx/sprites/jessie.2bpp"
 JamesSprite::            INCBIN "gfx/sprites/james.2bpp"
-
-SECTION "NPC Sprites 4", ROMX
-
-JaySprite::              INCBIN "gfx/sprites/jay.2bpp"
-BobSprite::              INCBIN "gfx/sprites/bob.2bpp"

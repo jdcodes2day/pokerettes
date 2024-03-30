@@ -3,16 +3,15 @@
 ; values for MapSpriteSets and SplitMapSpriteSets (see data/maps/sprite_sets.asm)
 	const_def 1
 	const SPRITESET_PALLET_VIRIDIAN ; 01
-	const SPRITESET_VIRIDIAN        ; 02
-	const SPRITESET_PEWTER_CERULEAN ; 03
-	const SPRITESET_LAVENDER        ; 04
-	const SPRITESET_VERMILION       ; 05
-	const SPRITESET_CELADON         ; 06
-	const SPRITESET_INDIGO          ; 07
-	const SPRITESET_SAFFRON         ; 08
-	const SPRITESET_SILENCE_BRIDGE  ; 09
-	const SPRITESET_CYCLING_ROAD    ; 0a
-	const SPRITESET_FUCHSIA         ; 0b
+	const SPRITESET_PEWTER_CERULEAN ; 02
+	const SPRITESET_LAVENDER        ; 03
+	const SPRITESET_VERMILION       ; 04
+	const SPRITESET_CELADON         ; 05
+	const SPRITESET_INDIGO          ; 06
+	const SPRITESET_SAFFRON         ; 07
+	const SPRITESET_SILENCE_BRIDGE  ; 08
+	const SPRITESET_CYCLING_ROAD    ; 09
+	const SPRITESET_FUCHSIA         ; 0a
 DEF NUM_SPRITE_SETS EQU const_value - 1
 
 ; split sprite set ids
