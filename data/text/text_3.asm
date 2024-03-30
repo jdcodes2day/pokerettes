@@ -433,13 +433,30 @@ _NotEnoughMemoryText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
+	text "Holy shit! What're"
+	line "you doing in my"
+	cont "house? I'm calling"
+	cont "the friggin' cops!"
+
+	para "...o-oh it's you!"
+	line "My bad LOL! XD"
+	cont "I'm too drunk for"
+	cont "this shit!"
+
+	para "What the hell am"
+	line "I even reading"
+	cont "right now? Oh,"
+	cont "sorry, distracted."
+
+	para "So anyway like..."
 	line "Welcome to the"
 	cont "world of #MON!"
 
 	para "My name is OAK!"
 	line "People call me"
 	cont "the #MON PROF!"
+	cont "I'm not really"
+	cont "sure why though."
 	prompt
 
 _OakSpeechText2A::
@@ -450,7 +467,11 @@ _OakSpeechText2A::
 	text_end
 
 _OakSpeechText2B::
-	text $51,"For some people,"
+	text $51,"Don't ask me what's"
+	line "wrong with this"
+	cont "one, because I"
+	cont "really don't know."
+	para "For some people,"
 	line "#MON are"
 	cont "pets. Others use"
 	cont "them for fights."
@@ -458,7 +479,7 @@ _OakSpeechText2B::
 	para "Myself..."
 
 	para "I study #MON"
-	line "as a profession."
+	line "for crack money."
 	prompt
 
 _IntroducePlayerText::
@@ -470,9 +491,12 @@ _IntroduceRivalText::
 	text "This is my grand-"
 	line "son. He's been"
 	cont "your rival since"
-	cont "you were a baby."
+	cont "you were both"
+	cont "babies. AND HE"
+	cont "STILL IS A"
+	cont "FUCKING BABY!"
 
-	para "...Erm, what is"
+	para "...Erm, what was"
 	line "his name again?"
 	prompt
 
