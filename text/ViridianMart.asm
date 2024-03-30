@@ -16,6 +16,10 @@ _ViridianMartClerkParcelQuestText::
 	line "Will you take it"
 	cont "to him?"
 
+	para "I'm not even"
+	line "supposed to"
+	cont "be here today."
+
 	para "<PLAYER> got"
 	line "OAK's PARCEL!@"
 	text_end

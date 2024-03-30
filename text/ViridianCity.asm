@@ -195,11 +195,15 @@ _ViridianCityGymLockedText::
 	done
 
 _ViridianCityJayText::
-	text "Snoochie"
-	line "boochies"
+	text "Jay: Snoochie"
+	line "boochies."
 	done
 
 _ViridianCityBobText::
-	text "..."
-	line "..."
+	text "Bob: ..."
+	line ""
+	para "Jay: That's Bob,"
+	line "he doesn't say"
+	cont "very much. The"
+	cont "fat fucker."
 	done
