@@ -223,7 +223,7 @@ ROMX $3D
 	"Battle Engine 9"
 ROMX $3E
 	"Surfing Minigame"
-ROMX $3F
+ROMX $40
 	"Overworld Pikachu"
 	"NPC Sprites 3"
 WRAM0
