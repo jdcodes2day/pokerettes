@@ -2,8 +2,8 @@
 ; indexes for SpriteSets (see data/maps/sprite_sets.asm)
 ; values for MapSpriteSets and SplitMapSpriteSets (see data/maps/sprite_sets.asm)
 	const_def 1
-	const SPRITESET_PALLET		    ; 01
-	const SPRITESET_VIRDIAN         ; 02
+	const SPRITESET_PALLET_VIRIDIAN ; 01
+	const SPRITESET_VIRIDIAN        ; 02
 	const SPRITESET_PEWTER_CERULEAN ; 03
 	const SPRITESET_LAVENDER        ; 04
 	const SPRITESET_VERMILION       ; 05
