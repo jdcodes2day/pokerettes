@@ -1,12 +1,12 @@
 	object_const_def
+	const_export VIRIDIANCITY_JAY
+	const_export VIRIDIANCITY_BOB
 	const_export VIRIDIANCITY_GAMBLER1
 	const_export VIRIDIANCITY_GIRL
 	const_export VIRIDIANCITY_OLD_MAN_SLEEPY
 	const_export VIRIDIANCITY_FISHER
 	const_export VIRIDIANCITY_OLD_MAN
 	const_export VIRIDIANCITY_OLD_MAN2
-	const_export VIRIDIANCITY_JAY
-	const_export VIRIDIANCITY_BOB
 
 ViridianCity_Object:
 	db $f ; border block
@@ -33,7 +33,7 @@ ViridianCity_Object:
 	object_event  6, 23, SPRITE_FISHER, STAY, DOWN, TEXT_VIRIDIANCITY_FISHER
 	object_event 17,  5, SPRITE_GAMBLER, WALK, LEFT_RIGHT, TEXT_VIRIDIANCITY_OLD_MAN
 	object_event 18,  9, SPRITE_GAMBLER, STAY, NONE, TEXT_VIRIDIANCITY_OLD_MAN2
-	object_event 19,  9, SPRITE_JAY, STAY, NONE, TEXT_VIRIDIANCITY_JAY
-	object_event 20,  9, SPRITE_BOB, STAY, NONE, TEXT_VIRIDIANCITY_BOB
+	object_event 30, 20, SPRITE_JAY, STAY, NONE, TEXT_VIRIDIANCITY_JAY
+	object_event 31, 21, SPRITE_BOB, STAY, NONE, TEXT_VIRIDIANCITY_BOB
 
 	def_warps_to VIRIDIAN_CITY

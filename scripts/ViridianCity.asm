@@ -263,6 +263,8 @@ ViridianCity_TextPointers:
 	dw_const ViridianCityFisherText,                         TEXT_VIRIDIANCITY_FISHER
 	dw_const ViridianCityOldManText,                         TEXT_VIRIDIANCITY_OLD_MAN
 	dw_const ViridianCityOldMan2Text,                        TEXT_VIRIDIANCITY_OLD_MAN2
+	dw_const ViridianCityJayText,                            TEXT_VIRIDIANCITY_JAY
+	dw_const ViridianCityBobText,                            TEXT_VIRIDIANCITY_BOB
 	dw_const ViridianCitySignText,                           TEXT_VIRIDIANCITY_SIGN
 	dw_const ViridianCityTrainerTips1Text,                   TEXT_VIRIDIANCITY_TRAINER_TIPS1
 	dw_const ViridianCityTrainerTips2Text,                   TEXT_VIRIDIANCITY_TRAINER_TIPS2
@@ -271,8 +273,6 @@ ViridianCity_TextPointers:
 	dw_const ViridianCityGymSignText,                        TEXT_VIRIDIANCITY_GYM_SIGN
 	dw_const ViridianCityGymLockedText,                      TEXT_VIRIDIANCITY_GYM_LOCKED
 	dw_const ViridianCityOldManYouNeedToWeakenTheTargetText, TEXT_VIRIDIANCITY_OLD_MAN_YOU_NEED_TO_WEAKEN_THE_TARGET
-	dw_const ViridianCityJayText,                            TEXT_VIRIDIANCITY_JAY
-	dw_const ViridianCityBobText,                            TEXT_VIRIDIANCITY_BOB
 
 ViridianCityGambler1Text:
 	text_asm
@@ -297,6 +297,16 @@ ViridianCityFisherText:
 ViridianCityOldManText:
 	text_asm
 	farcall ViridianCityPrintOldManText
+	jp TextScriptEnd
+
+ViridianCityJayText:
+	text_asm
+	farcall ViridianCityPrintJayText
+	jp TextScriptEnd
+
+ViridianCityBobText:
+	text_asm
+	farcall ViridianCityPrintBobText
 	jp TextScriptEnd
 
 ViridianCityOldManYouNeedToWeakenTheTargetText:
@@ -328,16 +338,6 @@ ViridianCityOldMan2Text:
 .LosingMyTouchText:
 	text_far _ViridianCityOldManLosingMyTouchText
 	text_end
-
-ViridianCityJayText:
-	text_asm
-	farcall ViridianCityPrintJayText
-	jp TextScriptEnd
-
-ViridianCityBobText:
-	text_asm
-	farcall ViridianCityPrintBobText
-	jp TextScriptEnd
 
 ViridianCitySignText:
 	text_asm
