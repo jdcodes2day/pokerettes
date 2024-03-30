@@ -18,7 +18,8 @@ _AIBattleUseItemText::
 	prompt
 
 _BoxFullDebugText::
-	text "The BOX is full!"
+	text "THAT BOX IS FULL"
+	line "OF SHIT!"
 	done
 
 _BoxWillBeClearedText::
@@ -84,12 +85,12 @@ _TradeforText::
 	done
 
 _PlaySlotMachineText::
-	text "A slot machine!"
+	text "Gambling! Wasteful!"
 	line "Want to play?"
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
+	text "Shit!"
 	line "Ran out of coins!"
 	done
 
@@ -104,7 +105,7 @@ _StartSlotMachineText::
 
 _NotEnoughCoinsSlotMachineText::
 	text "Not enough"
-	line "coins!"
+	line "coins! Dumbass!"
 	prompt
 
 _OneMoreGoSlotMachineText::
@@ -186,16 +187,16 @@ _CeruleanPokecenterGuyText::
 	text "BILL has lots of"
 	line "#MON!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "He does weird"
+	line "things with them!"
 	done
 
 _LavenderPokecenterGuyText::
 	text "CUBONEs wear"
 	line "skulls, right?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "That's so last"
+	line "decade!"
 	done
 
 _MtMoonPokecenterBenchGuyText::
@@ -241,12 +242,16 @@ _VermilionPokecenterGuyText::
 	para "So, there is no"
 	line "universally"
 	cont "strong #MON."
+
+	para "Except TAUROS,"
+	line "he's fucking"
+	cont "broken."
 	done
 
 _CeladonCityPokecenterGuyText::
 	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	line "I'd probably get"
+	cont "into a crash!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
@@ -254,8 +259,8 @@ _FuchsiaCityPokecenterGuyText::
 	line "#MON, visit"
 	cont "the SAFARI ZONE."
 
-	para "It has all sorts"
-	line "of rare #MON."
+	para "It's really"
+	line "trippy, woah."
 	done
 
 _CinnabarPokecenterGuyText::
@@ -267,6 +272,10 @@ _CinnabarPokecenterGuyText::
 	para "Evolution can wait"
 	line "until new moves"
 	cont "have been learned."
+
+	para "You think you could"
+	line "wait that long"
+	cont "though? Doubt it!"
 	done
 
 _SaffronCityPokecenterGuyText1::
@@ -274,6 +283,10 @@ _SaffronCityPokecenterGuyText1::
 	line "if the ELITE FOUR"
 	cont "came and stomped"
 	cont "TEAM ROCKET!"
+
+	para "Kind of makes you"
+	line "wonder, doesn't it?"
+	cont "Corrupt as hell."
 	done
 
 _SaffronCityPokecenterGuyText2::
@@ -290,23 +303,25 @@ _CeladonCityHotelText::
 
 _BookcaseText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "BULLSHIT!"
 	done
 
 _NewBicycleText::
 	text "A shiny new"
 	line "BICYCLE!"
+	line "Steal it!"
 	done
 
 _PushStartText::
 	text "Push START to"
 	line "open the MENU!"
+	line "DUHHH!"
 	done
 
 _SaveOptionText::
 	text "The SAVE option is"
 	line "on the MENU"
-	cont "screen."
+	cont "screen. WOW!"
 	done
 
 _StrengthsAndWeaknessesText::
@@ -317,9 +332,9 @@ _StrengthsAndWeaknessesText::
 	done
 
 _TimesUpText::
-	text "PA: Ding-dong!"
+	text "PA: Fuck, fuck!"
 
-	para "Time's up!"
+	para "5:40!"
 	prompt
 
 _GameOverText::
@@ -335,7 +350,8 @@ _CinnabarGymQuizDummyIntroText::
 	cont "the next room!"
 
 	para "Get it wrong and"
-	line "face a trainer!"
+	line "get your ass"
+	cont "kicked!"
 
 	para "If you want to"
 	line "conserve your"
@@ -354,8 +370,8 @@ _CinnabarGymQuizIntroText::
 	cont "the next room!"
 
 	para "Get it wrong and"
-	line "face the trainer"
-	cont "blocking the way!"
+	line "get your ass"
+	cont "kicked!"
 
 	para "If you want to"
 	line "conserve your"
@@ -475,6 +491,15 @@ _OakLabEmailText::
 	para "PS: PROF.OAK,"
 	line "please visit us!"
 	cont "..."
+
+	para "Please? It'd be"
+	line "really cool if"
+	cont "you did."
+
+	para "He's not going"
+	line "to visit us, is"
+	cont "he?"
+	cont "..."
 	done
 
 _GameCornerCoinCaseText::
@@ -489,17 +514,19 @@ _GameCornerNoCoinsText::
 
 _GameCornerOutOfOrderText::
 	text "OUT OF ORDER"
-	line "This is broken."
+	line "Someone punched"
+	cont "out the screen."
 	done
 
 _GameCornerOutToLunchText::
 	text "OUT TO LUNCH"
-	line "This is reserved."
+	line "Crazy, but that's"
+	cont "how it goes."
 	done
 
 _GameCornerSomeonesKeysText::
 	text "Someone's keys!"
-	line "They'll be back."
+	line "Quick! Hide them!"
 	done
 
 _JustAMomentText::
@@ -519,6 +546,11 @@ TMNotebookText::
 	line "HMs that can be"
 	cont "used repeatedly."
 
+	para "This is going to"
+	line "change in the"
+	cont "future, pretty"
+	cont "sure."
+
 	para "SILPH CO.@"
 	text_end
 
@@ -528,7 +560,7 @@ _TurnPageText::
 
 _ViridianSchoolNotebookText5::
 	text "GIRL: Hey! Don't"
-	line "look at my notes!@"
+	line "look copy my shit!@"
 	text_end
 
 _ViridianSchoolNotebookText1::
@@ -548,6 +580,11 @@ _ViridianSchoolNotebookText1::
 	line "and make #MON"
 	cont "fight are called"
 	cont "#MON trainers."
+
+	para "This is really"
+	line "stupid. Why am I"
+	cont "reading this dumb"
+	cont "bullshit?"
 	prompt
 
 _ViridianSchoolNotebookText2::
@@ -561,6 +598,11 @@ _ViridianSchoolNotebookText2::
 	para "Poison, burns and"
 	line "other damage are"
 	cont "effective!"
+
+	para "Wow! What a shocker!"
+	line "Next you'll tell me"
+	cont "people fight with"
+	cont "#MON!"
 	prompt
 
 _ViridianSchoolNotebookText3::
@@ -574,6 +616,8 @@ _ViridianSchoolNotebookText3::
 	para "Battles are"
 	line "constantly fought"
 	cont "at #MON GYMs."
+	cont "Oh for fuck's"
+	cont "sake, man."
 	prompt
 
 _ViridianSchoolNotebookText4::
@@ -590,16 +634,22 @@ _ViridianSchoolNotebookText4::
 
 	para "The ELITE FOUR of"
 	line "#MON LEAGUE!"
+
+	para "I don't really"
+	line "feel like it."
 	prompt
 
 _EnemiesOnEverySideText::
 	text "Enemies on every"
 	line "side!"
+	cont "Okay, where?"
+	cont "I just see kids."
 	done
 
 _WhatGoesAroundComesAroundText::
 	text "What goes around"
 	line "comes around!"
+	cont "Like an STI?"
 	done
 
 _FightingDojoText::
@@ -609,22 +659,24 @@ _FightingDojoText::
 _IndigoPlateauHQText::
 	text "INDIGO PLATEAU"
 	line "#MON LEAGUE HQ"
+	cont "Big deal."
 	done
 
 _RedBedroomSNESText::
 	text "<PLAYER> is"
 	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	cont "Wow! This game"
+	cont "sucks! Fuck that!"
 	done
 
 _Route15UpstairsBinocularsText::
 	text "Looked into the"
 	line "binoculars..."
 
-	para "A large, shining"
-	line "bird is flying"
-	cont "toward the sea."
+	para "Someone's taking"
+	line "a shit, in the"
+	cont "ocean. All righty"
+	cont "then. Whatever."
 	done
 
 _AerodactylFossilText::
@@ -640,11 +692,11 @@ _KabutopsFossilText::
 	done
 
 _FanClubPicture1Text::
-	text "My cute RAPIDASH."
+	text "My dashing RAPIDASH."
 	done
 
 _FanClubPicture2Text::
-	text "My beloved FEAROW."
+	text "My flawless FEAROW."
 	done
 
 _LinkCableHelpText1::
@@ -672,13 +724,14 @@ _LinkCableInfoText1::
 _LinkCableInfoText2::
 	text "COLOSSEUM lets"
 	line "you play against"
-	cont "a friend."
+	cont "a friend. That is"
+	cont "if you had any."
 	prompt
 
 _LinkCableInfoText3::
 	text "TRADE CENTER is"
 	line "used for trading"
-	cont "#MON."
+	cont "#MON. Shocker!"
 	prompt
 
 _ViridianSchoolBlackboardText1::
@@ -686,6 +739,8 @@ _ViridianSchoolBlackboardText1::
 	line "describes #MON"
 	cont "STATUS changes"
 	cont "during battles."
+	cont "You probably know"
+	cont "all of this."
 	prompt
 
 _ViridianSchoolBlackboardText2::
@@ -704,6 +759,9 @@ _ViridianBlackboardSleepText::
 
 	para "Use AWAKENING to"
 	line "wake them up!"
+
+	para "Or just leave them"
+	line "there, dick."
 	prompt
 
 _ViridianBlackboardPoisonText::
@@ -716,6 +774,9 @@ _ViridianBlackboardPoisonText::
 
 	para "Use an ANTIDOTE"
 	line "to cure poison!"
+
+	para "Or throw it away, I"
+	line "don't give a shit!"
 	prompt
 
 _ViridianBlackboardPrlzText::
@@ -728,6 +789,9 @@ _ViridianBlackboardPrlzText::
 
 	para "Use PARLYZ HEAL"
 	line "for treatment!"
+
+	para "This is paralyzing"
+	line "my ability to care."
 	prompt
 
 _ViridianBlackboardBurnText::
@@ -741,6 +805,9 @@ _ViridianBlackboardBurnText::
 
 	para "Use BURN HEAL to"
 	line "cure a burn!"
+
+	para "Nooo, I thought"
+	line "it was ICE HEAL!"
 	prompt
 
 _ViridianBlackboardFrozenText::
@@ -754,11 +821,16 @@ _ViridianBlackboardFrozenText::
 
 	para "Use ICE HEAL to"
 	line "thaw out #MON!"
+
+	para "Maybe piss on it"
+	line "if you insist."
 	prompt
 
 _VermilionGymTrashText::
 	text "Nope, there's"
 	line "only trash here."
+	cont "I think I'll"
+	cont "climb in!"
 	done
 
 _VermilionGymTrashSuccessText1::
@@ -784,6 +856,8 @@ _VermilionGymTrashSuccessText3::
 
 	para "The motorized door"
 	line "opened!@"
+	cont "This puzzle is"
+	cont "stupid as hell!"
 	text_end
 
 _VermilionGymTrashFailText::
@@ -804,6 +878,7 @@ _HiddenItemBagFullText::
 	text "But, <PLAYER> has"
 	line "no more room for"
 	cont "other items!"
+	cont "Hoarder much?"
 	done
 
 _FoundHiddenCoinsText::
@@ -840,21 +915,27 @@ _IndigoPlateauStatuesText3::
 	text "The highest"
 	line "#MON authority"
 	cont "#MON LEAGUE HQ"
+	cont "And up our own"
+	cont "asses!"
 	done
 
 _PokemonBooksText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "BULLSHIT!"
 	done
 
 _DiglettSculptureText::
 	text "It's a sculpture"
 	line "of DIGLETT."
+	cont "I thought it was"
+	cont "a giant turd."
 	done
 
 _ElevatorText::
 	text "This is an"
 	line "elevator."
+	cont "It'll probably"
+	cont "break."
 	done
 
 _TownMapText::
@@ -864,10 +945,11 @@ _TownMapText::
 _PokemonStuffText::
 	text "Wow! Tons of"
 	line "#MON stuff!"
+	cont "Throw it away!"
 	done
 
 _OutOfSafariBallsText::
-	text "PA: Ding-dong!"
+	text "PA: Fuck! Fuck!"
 
 	para "You are out of"
 	line "SAFARI BALLs!"
@@ -934,16 +1016,16 @@ _UseNextMonText::
 	done
 
 _Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Get fucked!"
+	line "Buttercup!"
 	prompt
 
 _PlayerBlackedOutText2::
 	text "<PLAYER> is out of"
 	line "useable #MON!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> passed"
+	line "the hell out!"
 	prompt
 
 _LinkBattleLostText::
@@ -974,8 +1056,8 @@ _TrainerSentOutText::
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "DUDE HE'S"
+	line "UNCONSCIOUS!"
 	prompt
 
 _CantEscapeText::
@@ -986,6 +1068,7 @@ _NoRunningText::
 	text "No! There's no"
 	line "running from a"
 	cont "trainer battle!"
+	cont "I get it though."
 	prompt
 
 _GotAwayText::
@@ -1032,13 +1115,13 @@ _MultiHitText::
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " is shitting"
+	line "itself in fear!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "GHOST: RED RUM..."
+	line "RED RUM..."
 	prompt
 
 _FastAsleepText::
@@ -1053,7 +1136,7 @@ _WokeUpText::
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "is fucking frozen!"
 	prompt
 
 _FullyParalyzedText::
@@ -1074,6 +1157,7 @@ _MustRechargeText::
 _DisabledNoMoreText::
 	text "<USER>'s"
 	line "disabled no more!"
+	cont "What a miracle!"
 	prompt
 
 _IsConfusedText::
@@ -1082,8 +1166,8 @@ _IsConfusedText::
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "It hit itself like"
+	line "a dumbass!"
 	prompt
 
 _ConfusedNoMoreText::
@@ -1103,7 +1187,7 @@ _UnleashedEnergyText::
 
 _ThrashingAboutText::
 	text "<USER>'s"
-	line "thrashing about!"
+	line "going ape shit!"
 	done
 
 _AttackContinuesText::
@@ -1210,8 +1294,8 @@ _BeganToNapText::
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " scratched"
+	line "its ass!"
 	prompt
 
 _TurnedAwayText::
@@ -1239,7 +1323,7 @@ _SubstituteBrokeText::
 
 _BuildingRageText::
 	text "<USER>'s"
-	line "RAGE is building!"
+	line "is pissed off!"
 	prompt
 
 _MirrorMoveFailedText::
@@ -1288,8 +1372,8 @@ _SuperEffectiveText::
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "It barely did"
+	line "shit..."
 	prompt
 
 _SafariZoneEatingText::
@@ -1303,7 +1387,7 @@ _SafariZoneAngryText::
 	text "Wild @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is angry!"
+	line "is pissed!"
 	prompt
 
 _WildMonAppearedText::

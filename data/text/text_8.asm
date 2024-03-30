@@ -35,6 +35,7 @@ _CableClubNPCMakingPreparationsText::
 _FlashLightsAreaText::
 	text "A blinding FLASH"
 	line "lights the area!"
+	cont "Ouch, my eyes!"
 	prompt
 
 _WarpToLastPokemonCenterText::
@@ -93,7 +94,7 @@ _CurrentTooFastText::
 
 _CyclingIsFunText::
 	text "Cycling is fun!"
-	line "Forget SURFing!"
+	line "Fuck SURFing!"
 	prompt
 
 _GotMonText::

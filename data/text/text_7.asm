@@ -22,8 +22,8 @@ _PlayerBlackedOutText::
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "REPEL took a"
+	line "shit."
 	done
 
 _PokemartBuyingGreetingText::
@@ -51,7 +51,7 @@ _PokemartNotEnoughMoneyText::
 
 _PokemartItemBagFullText::
 	text "You can't carry"
-	line "any more items."
+	line "any more shit."
 	prompt
 
 _PokemonSellingGreetingText::
@@ -68,7 +68,7 @@ _PokemartTellSellPriceText::
 
 _PokemartItemBagEmptyText::
 	text "You don't have"
-	line "anything to sell."
+	line "shit to sell."
 	prompt
 
 _PokemartUnsellableItemText::
@@ -200,6 +200,8 @@ _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
 	line "reserved for 2"
 	cont "friends who are"
 	cont "linked by cable."
+	cont "Friends in which"
+	cont "you lack."
 	done
 
 _CableClubNPCWelcomeText::

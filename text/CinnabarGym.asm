@@ -90,8 +90,8 @@ _CinnabarGymSuperNerd1AfterBattleText::
 
 _CinnabarGymSuperNerd2BattleText::
 	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	line "I'm still really"
+	cont "really gay!"
 	done
 
 _CinnabarGymSuperNerd2EndBattleText::

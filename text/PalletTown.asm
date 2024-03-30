@@ -4,8 +4,8 @@ _PalletTownOakHeyWaitDontGoOutText::
 	text_end
 
 _PalletTownOakThatWasCloseText::
-	text "OAK: That was"
-	line "close!"
+	text "OAK: Wow, that"
+	line "was close!"
 
 	para "Wild #MON live"
 	line "in tall grass!"
@@ -35,7 +35,8 @@ _PalletTownGirlText::
 
 	para "When they get"
 	line "strong, they can"
-	cont "protect me!"
+	cont "be used to commit"
+	cont "crimes, and stuff!"
 	done
 
 _PalletTownFisherText::

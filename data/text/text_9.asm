@@ -101,8 +101,8 @@ _PlayedFluteNoEffectText::
 	text "Played the #"
 	line "FLUTE."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "That was"
+	line "really annoying!"
 	prompt
 
 _FluteWokeUpText::

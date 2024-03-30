@@ -77,7 +77,7 @@ _RanFromBattleText::
 
 _RanAwayScaredText::
 	text "<TARGET>"
-	line "ran away scared!"
+	line "ran away, pussy!"
 	prompt
 
 _WasBlownAwayText::
@@ -210,7 +210,7 @@ _StatusChangesEliminatedText::
 
 _GettingPumpedText::
 	text "<USER>'s"
-	line "getting pumped!"
+	line "getting HYPED!"
 	prompt
 
 _StartedSleepingEffect::

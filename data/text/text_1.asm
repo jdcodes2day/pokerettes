@@ -9,7 +9,7 @@ _CardKeySuccessText2::
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
+	text "Damn! It needs a"
 	line "CARD KEY!"
 	done
 
@@ -28,7 +28,7 @@ _NothingHereText::
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
+	text "Oh shit!"
 	line "It's a bite!"
 	prompt
 
@@ -43,12 +43,12 @@ _GroundRoseText::
 
 _BoulderText::
 	text "This requires"
-	line "STRENGTH to move!"
+	line "BALLS to move!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
+	text "I assure you"
+	line "we're opened!"
 	cont "#MON MART"
 	done
 
@@ -66,7 +66,7 @@ _FoundItemText::
 
 _NoMoreRoomForItemText::
 	text "No more room for"
-	line "items!"
+	line "shit!"
 	done
 
 _OaksAideHiText::
@@ -150,5 +150,5 @@ _OaksAideNoRoomText::
 
 _NurseChanseyText::
 	text "CHANSEY: Chaaan"
-	line "sey!"
+	line "SHIT!"
 	done

@@ -9,7 +9,7 @@ _WouldYouLikeToSaveText::
 	done
 
 _SavingText::
-	text "Saving..."
+	text "Shitting..."
 	done
 
 _GameSavedText::
