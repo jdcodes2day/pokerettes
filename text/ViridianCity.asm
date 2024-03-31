@@ -6,7 +6,7 @@ _ViridianCityOldManYouNeedToWeakenTheTargetText::
 
 _ViridianCityOldManHadMyCoffeeNowText::
 	text "Ahh, I've had my"
-	line "coffee now and I"
+	line "dope now and I"
 	cont "feel great!"
 
 	para "Sure, you can go"
@@ -32,7 +32,10 @@ _ViridianCityOldManLosingMyTouchText::
 	line "# BALLs too."
 
 	para "I have to get some"
-	line "at #MON MART."
+	line "at the #MON MART."
+	cont "I'm a little broke"
+	cont "right now. I'm owed"
+	cont "money all over town."
 	done
 
 _ViridianCityYoungster1Text::
@@ -44,6 +47,10 @@ _ViridianCityYoungster1Text::
 	line "you can carry and"
 	cont "use #MON any-"
 	cont "time, anywhere!"
+
+	para "I'm so grateful"
+	line "for our second"
+	cont "amendment right!"
 	done
 
 _ViridianCityGambler1GymAlwaysClosedText::
@@ -57,6 +64,9 @@ _ViridianCityGambler1GymAlwaysClosedText::
 _ViridianCityGambler1GymLeaderReturnedText::
 	text "VIRIDIAN GYM's"
 	line "LEADER returned!"
+
+	para "I still have no"
+	line "idea who they are."
 	done
 
 _ViridianCityYoungster2YouWantToKnowAboutText::
@@ -67,7 +77,7 @@ _ViridianCityYoungster2YouWantToKnowAboutText::
 	done
 
 ViridianCityYoungster2OkThenText::
-	text "Oh, OK then!"
+	text "Wow, rude."
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
@@ -83,7 +93,7 @@ _ViridianCityGirlHasntHadHisCoffeeYetText::
 	text "Oh Grandpa! Don't"
 	line "be so mean!"
 	cont "He hasn't had his"
-	cont "coffee yet."
+	cont "bud yet."
 	done
 
 _ViridianCityGirlWhenIGoShopText::
@@ -92,6 +102,12 @@ _ViridianCityGirlWhenIGoShopText::
 	cont "have to take the"
 	cont "winding trail in"
 	cont "VIRIDIAN FOREST."
+
+	para "I've gotten lost"
+	line "a lot. I don't"
+	cont "even know how"
+	cont "I got back"
+	cont "to begin with."
 	done
 
 _ViridianCityOldManSleepyPrivatePropertyText::
@@ -156,6 +172,11 @@ _ViridianCitySignText::
 	text "VIRIDIAN CITY "
 	line "The Eternally"
 	cont "Green Paradise"
+
+	para "Don't look"
+	line "behind our gym."
+	cont "There's nothing"
+	cont "there."
 	done
 
 _ViridianCityTrainerTips1Text::

@@ -85,7 +85,7 @@ _TradeforText::
 	done
 
 _PlaySlotMachineText::
-	text "Gambling! Wasteful!"
+	text "Childhood gambling!"
 	line "Want to play?"
 	done
 
@@ -105,7 +105,7 @@ _StartSlotMachineText::
 
 _NotEnoughCoinsSlotMachineText::
 	text "Not enough"
-	line "coins! Dumbass!"
+	line "coins! Man!"
 	prompt
 
 _OneMoreGoSlotMachineText::
@@ -150,6 +150,8 @@ _GymStatueText1::
 
 	para "WINNING TRAINERS:"
 	line "<RIVAL>"
+	cont "JAY"
+	cont "SILENT BOB"
 	done
 
 _GymStatueText2::
@@ -162,6 +164,8 @@ _GymStatueText2::
 
 	para "WINNING TRAINERS:"
 	line "<RIVAL>"
+	cont "JAY"
+	cont "SILENT BOB"
 	cont "<PLAYER>"
 	done
 
@@ -170,6 +174,9 @@ _ViridianCityPokecenterGuyText::
 	line "heal your tired,"
 	cont "hurt or fainted"
 	cont "#MON!"
+	para "No, they won't take"
+	line "insurance. I already"
+	cont "asked."
 	done
 
 _PewterCityPokecenterGuyText::
@@ -186,15 +193,13 @@ _PewterCityPokecenterGuyText::
 _CeruleanPokecenterGuyText::
 	text "BILL has lots of"
 	line "#MON!"
-
 	para "He does weird"
-	line "things with them!"
+	line "shit with them!"
 	done
 
 _LavenderPokecenterGuyText::
 	text "CUBONEs wear"
 	line "skulls, right?"
-
 	para "That's so last"
 	line "decade!"
 	done
@@ -204,28 +209,33 @@ _MtMoonPokecenterBenchGuyText::
 	line "many #MON, you"
 	cont "should store them"
 	cont "via PC!"
+	para "Back 'em up via"
+	line "trades to avoid"
+	cont "losing them from"
+	cont "the internal battery"
+	cont "drying up."
 	done
 
 _RockTunnelPokecenterGuyText::
 	text "I heard that"
 	line "GHOSTs haunt"
 	cont "LAVENDER TOWN!"
+	cont "Fuck that!"
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text ""
+	line ""
 	done
 
 _UnusedBenchGuyText2::
-	text "I'm tired from"
-	line "all the fun..."
+	text ""
+	line ""
 	done
 
 _UnusedBenchGuyText3::
-	text "SILPH's manager"
-	line "is hiding in the"
-	cont "SAFARI ZONE."
+	text ""
+	line ""
 	done
 
 _VermilionPokecenterGuyText::
@@ -258,9 +268,8 @@ _FuchsiaCityPokecenterGuyText::
 	text "If you're studying "
 	line "#MON, visit"
 	cont "the SAFARI ZONE."
-
-	para "It's really"
-	line "trippy, woah."
+	para "A lot of robots"
+	line "there though."
 	done
 
 _CinnabarPokecenterGuyText::
@@ -309,13 +318,12 @@ _BookcaseText::
 _NewBicycleText::
 	text "A shiny new"
 	line "BICYCLE!"
-	line "Steal it!"
 	done
 
 _PushStartText::
 	text "Push START to"
 	line "open the MENU!"
-	line "DUHHH!"
+	cont "DUHHH!"
 	done
 
 _SaveOptionText::
@@ -560,7 +568,7 @@ _TurnPageText::
 
 _ViridianSchoolNotebookText5::
 	text "GIRL: Hey! Don't"
-	line "look copy my shit!@"
+	line "copy my shit!@"
 	text_end
 
 _ViridianSchoolNotebookText1::
@@ -599,10 +607,10 @@ _ViridianSchoolNotebookText2::
 	line "other damage are"
 	cont "effective!"
 
-	para "Wow! What a shocker!"
-	line "Next you'll tell me"
-	cont "people fight with"
-	cont "#MON!"
+	para "Wow! Shocking!"
+	line "Next you'll tell"
+	cont "me people fight"
+	cont "using #MON!"
 	prompt
 
 _ViridianSchoolNotebookText3::
@@ -616,8 +624,8 @@ _ViridianSchoolNotebookText3::
 	para "Battles are"
 	line "constantly fought"
 	cont "at #MON GYMs."
-	cont "Oh for fuck's"
-	cont "sake, man."
+	para "Oh for fucks"
+	line "sake, man."
 	prompt
 
 _ViridianSchoolNotebookText4::
@@ -635,8 +643,7 @@ _ViridianSchoolNotebookText4::
 	para "The ELITE FOUR of"
 	line "#MON LEAGUE!"
 
-	para "I don't really"
-	line "feel like it."
+	para "I care."
 	prompt
 
 _EnemiesOnEverySideText::

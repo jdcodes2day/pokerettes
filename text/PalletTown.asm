@@ -18,7 +18,7 @@ _PalletTownOakWhewText::
 _PalletTownOakComeWithMe::
 	text "OAK: A #MON can"
 	line "appear anytime in"
-	cont "tall grass."
+	cont "tall grass idiot."
 
 	para "You need your own"
 	line "#MON for your"
@@ -47,17 +47,28 @@ _PalletTownFisherText::
 	line "and recall items"
 	cont "and #MON as"
 	cont "data via PC!"
+
+	para "You can do other"
+	line "things too but"
+	cont "I'm not going to"
+	cont "tell you so don't"
+	cont "even bother"
+	cont "asking me."
 	done
 
 _PalletTownOaksLabSignText::
 	text "OAK #MON"
 	line "RESEARCH LAB"
+	cont "No asking for"
+	cont "handouts!"
 	done
 
 _PalletTownSignText::
 	text "PALLET TOWN"
 	line "Shades of your"
 	cont "journey await!"
+	cont "Don't fuck with"
+	cont "us!"
 	done
 
 _PalletTownPlayersHouseSignText::

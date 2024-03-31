@@ -28,10 +28,18 @@ _ViridianMartYoungsterText::
 	text "This shop sells a"
 	line "lot of PARLYZ"
 	cont "HEALs."
+
+	para "What do you think"
+	line "would happen if"
+	cont "I tried some?"
 	done
 
 _ViridianMartCooltrainerMText::
 	text "The shop finally"
 	line "has some POTIONs"
 	cont "in stock."
+
+	para "And I am really"
+	line "thirsty at the"
+	cont "moment!"
 	done

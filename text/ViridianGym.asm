@@ -105,10 +105,14 @@ _ViridianGymHiker1BattleText::
 	text "Rrrroar! I'm"
 	line "working myself"
 	cont "into a rage!"
+	para "Aaand I just"
+	line "shit my pants."
+	cont "Great."
 	done
 
 _ViridianGymHiker1EndBattleText::
-	text "Wargh!"
+	text "I... think I'll"
+	line "go wash up."
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
@@ -131,6 +135,12 @@ _ViridianGymRocker1AfterBattleText::
 	text "Do you know the"
 	line "identity of our"
 	cont "GYM LEADER?"
+
+	para "No really, I"
+	line "don't know who"
+	cont "they are, I'm"
+	cont "here for the"
+	cont "paycheck."
 	done
 
 _ViridianGymHiker2BattleText::

@@ -6,6 +6,10 @@ _ViridianNicknameHouseBaldingGuyText::
 	para "Simple names are"
 	line "the easiest to"
 	cont "remember."
+
+	para "Like GRAPEFRUIT,"
+	line "that's got a ring"
+	cont "to it, right?"
 	done
 
 _ViridianNicknameHouseLittleGirlText::
@@ -14,7 +18,7 @@ _ViridianNicknameHouseLittleGirlText::
 	done
 
 _ViridianNicknameHouseSpearowText::
-	text "SPEARY: Tetweet!"
+	text "SPEARY: TITS!"
 	done
 
 _ViridianNicknameHouseSpearySignText::

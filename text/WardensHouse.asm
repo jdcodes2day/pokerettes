@@ -33,8 +33,8 @@ _WardensHouseWardenTeethPoppedInHisTeethText::
 _WardensHouseWardenThanksText::
 	text "WARDEN: Thanks,"
 	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	cont "understand a damn"
+	cont "thing I said."
 
 	para "I couldn't work"
 	line "that way."
@@ -68,11 +68,26 @@ _WardensHouseWardenHM04ExplanationText::
 
 	para "I hear it's the"
 	line "rare SURF HM."
+
+	para "I gave one to a"
+	line "tall skinny fellow"
+	cont "and he used it on"
+	cont "his chubby friend."
+
+	para "And then they SURFed"
+	line "to Cinnabar Island,"
+	cont "Frankly I don't think"
+	cont "it did anything, they"
+	cont "probably mistook it for"
+	cont "some kind of experimental"
+	cont "pill before swimming to"
+	cont "Cinnabar Island."
 	done
 
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
+	text "Clear out your"
+	line "pack, don't waste"
+	cont "my time please."
 	done
 
 _WardensHouseDisplayPhotosAndFossilsText::

@@ -2,8 +2,9 @@ _ViridianSchoolHouseBrunetteGirlText::
 	text "Whew! I'm trying"
 	line "to memorize all"
 	cont "my notes."
-	cont "I forgot all"
-	cont "of them."
+	cont "Nevermind, I just"
+	cont "forgot all of"
+	cont "them. Oh well!"
 	done
 
 _ViridianSchoolHouseLittleGirlText::
@@ -21,5 +22,8 @@ _ViridianSchoolHouseCooltrainerFText::
 	para "Be sure to read"
 	line "the blackboard"
 	cont "carefully!"
-	cont "I drew boobs!"
+	
+	para "Ignore the boobs,"
+	line "I couldn't erase"
+	cont "them very well."
 	done

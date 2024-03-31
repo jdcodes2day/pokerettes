@@ -24,6 +24,12 @@ _OaksLabThatsAPokeball::
 	text "That's a #"
 	line "BALL. There's a"
 	cont "#MON inside!"
+
+	para "And don't even"
+	line "try and steal it"
+	cont "because I'm too"
+	cont "lazy to program"
+	cont "that shit in."
 	done
 
 _OaksLabOak1GoAheadItsYours::
@@ -70,7 +76,7 @@ _OaksLabOak1DeliverParcelText::
 _OaksLabOak1ParcelThanksText::
 	text_start
 	para "Ah! This is the"
-	line "custom # BALL"
+	line "custom bong"
 	cont "I ordered!"
 	cont "Thanks, <PLAYER>!"
 
@@ -126,6 +132,10 @@ _OaksLabOak1ComeSeeMeSometimesText::
 	para "I want to know how"
 	line "your #DEX is"
 	cont "coming along."
+
+	para "Well if you want"
+	line "to, because you"
+	cont "probably won't."
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
@@ -137,9 +147,8 @@ _OaksLabOak1HowIsYourPokedexComingText::
 	prompt
 
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "What the hell"
+	line "is this thing?"
 	done
 
 _OaksLabOak2Text::
@@ -154,6 +163,10 @@ _OaksLabGirlText::
 	para "Many #MON"
 	line "trainers hold him"
 	cont "in high regard!"
+
+	para "Not me though,"
+	line "I think he's"
+	cont "kind of a dick."
 	done
 
 _OaksLabRivalFedUpWithWaitingText::
@@ -163,14 +176,14 @@ _OaksLabRivalFedUpWithWaitingText::
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: Hmm? <RIVAL>?"
-	line "Why are you here"
-	cont "already?"
+	text "OAK: Hey. <RIVAL>."
+	line "Shut the hell"
+	cont "up."
 
 	para "I said for you to"
 	line "come by later..."
 
-	para "Ah, whatever!"
+	para "Fuck it!"
 	line "Just wait there."
 
 	para "Look, <PLAYER>! Do"
@@ -183,6 +196,7 @@ _OaksLabOakChooseMonText::
 
 	para "You may have it!"
 	line "Go on, take it!"
+	cont "I don't want it."
 	done
 
 _OaksLabRivalWhatAboutMeText::
@@ -192,9 +206,11 @@ _OaksLabRivalWhatAboutMeText::
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient,"
-	line "<RIVAL>, I'll give"
-	cont "you one later."
+	text "OAK: <RIVAL>, SHUT"
+	line "THE FUCK UP!"
+	cont "YOU'RE GETTING"
+	cont "ONE LATER!"
+	cont "GODDAMMIT!"
 	done
 
 _OaksLabRivalTakesText1::
@@ -209,8 +225,8 @@ _OaksLabRivalTakesText2::
 	text_end
 
 _OaksLabRivalTakesText3::
-	text "OAK: <RIVAL>! What"
-	line "are you doing?"
+	text "OAK: <RIVAL>! WHAT"
+	line "THE FUCK?!"
 	prompt
 
 _OaksLabRivalTakesText4::
@@ -219,17 +235,21 @@ _OaksLabRivalTakesText4::
 	prompt
 
 _OaksLabRivalTakesText5::
-	text "OAK: But, I... Oh,"
-	line "all right then."
+	text "OAK: OH FOR FUCKS"
+	line "SAKE! YOU LITTLE"
+	cont "SHIT! AGH! FUCK!"
+	cont "All right then."
+	cont "Fuck it."
 	cont "That #MON is"
 	cont "yours."
 
 	para "I was going to"
 	line "give you one"
-	cont "anyway..."
+	cont "anyway you"
+	cont "impatient fuck."
 
 	para "<PLAYER>, come over"
-	line "here."
+	line "here please."
 	done
 
 _OaksLabOakGivesText::
@@ -241,6 +261,11 @@ _OaksLabOakGivesText::
 	line "I caught it in"
 	cont "the wild and it's"
 	cont "not tame yet."
+
+	para "Don't ask for a"
+	line "different one."
+	cont "Just... Try and"
+	cont "work with it."
 	prompt
 
 _OaksLabReceivedText::
@@ -266,15 +291,15 @@ _OaksLabRivalIllTakeYouOnText::
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "YOU FUCKER!"
+	line "YOU CHEATED!"
+	cont "FUCK YOU YOU"
+	cont "FUCKING BITCH!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: WHOOPED YOUR"
+	line "ASS HA HA YOU SUCK BITCH!"
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
@@ -284,7 +309,7 @@ _OaksLabRivalSmellYouLaterText::
 	cont "toughen it up!"
 
 	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	line "SMELL MY ASS!"
 	done
 
 _OaksLabPikachuDislikesPokeballsText1::
@@ -362,7 +387,7 @@ _OaksLabOakThatWasMyDreamText::
 
 	para "That was my dream!"
 
-	para "But, I'm too old!"
+	para "But, I'm too high!"
 	line "I can't do it!"
 
 	para "So, I want you two"
@@ -392,10 +417,11 @@ _OaksLabRivalLeaveItAllToMeText::
 
 	para "I'll tell her not"
 	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	cont "<PLAYER>! BITCH!"
 	done
 
 _OaksLabScientistText::
 	text "I study #MON as"
 	line "PROF.OAK's AIDE."
+	cont "And nothing else."
 	done
